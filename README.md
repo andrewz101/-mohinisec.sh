@@ -1,2 +1,7 @@
 # -mohinisec.sh
-MohiniSec is a lab-safe DoS simulation tool for cybersecurity learning. It lets students and enthusiasts explore HTTP, UDP, and TCP attacks, analyze server performance, and practice defenses like rate limiting and firewalls—all in a controlled, ethical environment.
+git clone git@github.com:andrewz101/-mohinisec.sh.git
+cd mohinisec 
+chmod +x mohinisec.sh
+./mohinisec.sh 127.0.0.1 8080 http
+./mohinisec.sh 127.0.0.1 80 udp
+./mohinisec.sh 127.0.0.1 22 tcp
