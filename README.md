@@ -1,5 +1,5 @@
 # -mohinisec.sh
-git clone git@github.com:andrewz101/-mohinisec.sh.git
+git clone https://github.com/andrewz101/-mohinisec.sh.git
 
 
 cd mohinisec 
